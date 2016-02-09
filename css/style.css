@@ -44,12 +44,13 @@ li a {
   top: 80%;
   height: 50px;
   width:  200px;
-  background-color: red;
+  background-color: #99ffdd;
   left: 50%;
   /*margin-right: -50%;*/
   transform: translate(-50%, -50%);
   border-radius: 10px;
-
+  text-decoration: none;
+  color: white;
  }
  .h-centered {
    position: absolute;
@@ -58,19 +59,21 @@ li a {
    transform: translate(-50%, -50%);
  }
 .fa {
-  padding: 30px 30px;
+  padding: 15% 15%;
   font-size: 40px;
-  border: black solid 1px;
-  border-radius: 80px;
+  border: #a6a6a6 solid 2px;
+  border-radius: 100px;
 }
 .content {
   margin-top: 30px;
   width: 100%;
   position: absolute;
+  color: #a6a6a6;
 }
 .column{
   text-align: center;
   position: relative;
   float:left;
   width: 33.3%;
+
 }
